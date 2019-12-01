@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "zh-CN"
-title                    : "肖深刻的博客"
+title                    : "AK's Note"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "AK"
@@ -109,7 +109,7 @@ analytics:
 author:
   name             : "AK"
   avatar           : "/assets/images/avatar.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "保持热爱"
+  bio              : "小小的天， 有大大的梦想。"
   location         : "QuanZhou"
   email            :
   links:
@@ -127,7 +127,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/akcn"
+      # url: "https://github.com/akcn"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -290,5 +290,5 @@ defaults:
       author_profile: true
       read_time: true
       comments: # true
-      share: true
+      share: # true
       related: true
