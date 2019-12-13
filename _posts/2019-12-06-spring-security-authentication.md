@@ -1,7 +1,7 @@
 ---
 title: Spring Security 认证过程
 categories:
-  - spring
+  - spring security
 ---
 
 最近在学习SpringSecurity的原理，开始看源码总是进去容易，调试着断点却发现越来越复杂，到最后发现出不来，很难理解大佬写代码的那种思维，
