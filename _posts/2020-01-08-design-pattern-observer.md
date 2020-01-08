@@ -111,7 +111,6 @@ public class TestObserver {
         wechatServer.setInfomation("JAVA是世界上最好用的语言！");
     }
 }
-
 ```
 ```text
 微信服务更新消息： PHP是世界上最好用的语言！
