@@ -442,3 +442,5 @@ declaredEventType.isAssignableFrom(eventType)当以下两种情况返回true
 而对于事件源类型而言,通常默认会直接返回true,也就是说事件源的类型通常对于判断匹配的监听器没有意义。<5>
 
 这里查找到所有匹配的监听器返回后会将匹配关系缓存到retrieverCache这个map中<7>
+
+> 参考 [https://www.cnblogs.com/takumicx/p/9972461.html](https://www.cnblogs.com/takumicx/p/9972461.html)
