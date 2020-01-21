@@ -177,7 +177,20 @@ public class ResolveGenericDemo {
     System.out.println(resolvableType7.isAssignableFrom(resolvableType11));
   }
 }
-
+```
+输出:
+```bash
+[com.xym.treedemo.type.ResolveGenericDemo$IService<com.xym.treedemo.type.ResolveGenericDemo$A, com.xym.treedemo.type.ResolveGenericDemo$B>]
+class com.xym.treedemo.type.ResolveGenericDemo$A
+class com.xym.treedemo.type.ResolveGenericDemo$C
+class java.lang.String
+class java.lang.Integer
+class java.lang.String
+class java.lang.Integer
+class java.lang.String
+class java.lang.String
+true
+false
 ```
 
 从如上操作可以看出其泛型操作功能十分完善，尤其在嵌套的泛型信息获取上相当简洁。目前整个Spring4环境都使用这个API来操作泛型信息。
