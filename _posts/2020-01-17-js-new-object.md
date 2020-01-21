@@ -29,6 +29,7 @@ v.price // 1000
 2. 将这个空对象的原型，指向构造函数的prototype属性。
 3. 将这个空对象赋值给函数内部的this关键字。
 4. 开始执行构造函数内部的代码。
+
 ```js
 function _new(/* 构造函数 */ constructor, /* 构造函数参数 */ params) {
   // 将 arguments 对象转为数组

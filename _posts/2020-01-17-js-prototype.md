@@ -1,7 +1,7 @@
 ---
 title: Js原型与原型链
 categories: 
-	- Javascript
+  - Javascript
 tags: 
   - prototype
 ---
